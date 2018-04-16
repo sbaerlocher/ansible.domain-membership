@@ -1,2 +1,14 @@
 ---
 # tasks file for sbaerlocher.domain-membership
+
+- name: "{{ ansible_distribution | lower }} | include sbaerlocher.domain-join role"
+  include_role:
+    name: sbaerlocher.domain-join
+  vars:
+    domain_join_domain_name: "{{ domain_membership_domain_name }}"
+    domain_join_admin_user: "{{ domain_membership_admin_user }}"
+    domain_join_admin_password: "{{ domain_membership_admin_password }}"
+    domain_join_ou: "{{ domain_membership_ou }}"
+  when: domain_membership_domain_name is defined
+  tags:
+    - configuration
