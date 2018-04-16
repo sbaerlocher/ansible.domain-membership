@@ -1,2 +1,15 @@
 ---
 # tasks file for sbaerlocher.domain-membership
+
+- name: "{{ ansible_distribution | lower }} | include sbaerlocher.sssd role"
+  include_role:
+    name: sbaerlocher.sssd
+  vars:
+    sssd_domain_name: "{{ domain_membership_domain_name }}"
+    sssd_admin_user: "{{ domain_membership_admin_user }}"
+    sssd_admin_password: "{{ domain_membership_admin_password }}"
+    sssd_join_ou: "{{ domain_membership_ou }}"
+  when: domain_membership_domain_name is defined
+  tags:
+    - configuration
+    - packages
