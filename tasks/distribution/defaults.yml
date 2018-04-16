@@ -1,0 +1,6 @@
+---
+# tasks file for sbaerlocher.domain-membership
+
+- name: Message
+  debug:
+    msg: "Your {{ ansible_system }} is not supported"
