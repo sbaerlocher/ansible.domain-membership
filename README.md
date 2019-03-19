@@ -1,6 +1,6 @@
 # Ansible Role: domain-membership
 
-[![Build Status](https://img.shields.io/travis/sbaerlocher/ansible.domain-membership.svg?branch=master&style=popout-square)](https://travis-ci.org/sbaerlocher/ansible.domain-membership) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=popout-square)](https://sbaerlo.ch/licence) [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-domain-membership-blue.svg?style=popout-square)](https://galaxy.ansible.com/sbaerlocher/domain-membership) [![Ansible Role](https://img.shields.io/ansible/role/d/id.svg?style=popout-square)](https://galaxy.ansible.com/sbaerlocher/domain-membership)
+[![Build Status](https://img.shields.io/travis/sbaerlocher/ansible.domain-membership.svg?branch=master&style=popout-square)](https://travis-ci.org/sbaerlocher/ansible.domain-membership) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=popout-square)](https://sbaerlo.ch/licence) [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-domain--membership-blue.svg?style=popout-square)](https://galaxy.ansible.com/sbaerlocher/domain-membership) [![Ansible Role](https://img.shields.io/ansible/role/d/25073.svg?style=popout-square)](https://galaxy.ansible.com/sbaerlocher/domain-membership)
 
 ## Description
 
