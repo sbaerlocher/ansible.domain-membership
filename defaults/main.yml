@@ -1,2 +1,4 @@
 ---
 # defaults file for sbaerlocher.domain-membership
+
+domain_membership: true
