@@ -15,6 +15,7 @@
         - "distribution"
   loop_control:
     loop_var: loop_distribution
+  when: domain_membership
   tags:
     - configuration
     - packages
